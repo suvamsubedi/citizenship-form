@@ -1,0 +1,9 @@
+th,
+td {
+  border-right: 1px solid #0c0c0c;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none;
+}
