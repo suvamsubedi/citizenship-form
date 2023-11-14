@@ -14,14 +14,13 @@
   </head>
   <body>
     <div class="container">
-      <form action="" class="needs-validation novalidate">
+      <form action="">
         <div class="row">
-          <h5 class="col-8">नेपाली नागरिकताको प्रमाण-पत्र प्रतिलिपि पाऊँ।</h5>
-          <div class="col d-flex justify-content-between">
-            <p>नेपाली नागरिकता</p>
-            <p>></p>
-            <p>नागरिकता प्रतिलिपि सिफारिस</p>
-          </div>
+          <h5 class="col">नेपाली नागरिकताको प्रमाण-पत्र प्रतिलिपि पाऊँ।</h5>
+
+          <p class="col text-end text-nowrap">
+            नेपाली नागरिकता > नागरिकता प्रतिलिपि सिफारिस
+          </p>
         </div>
         <p>श्रीमान् प्रमुख जिल्ला अधिकारीज्यू</p>
         <div class="row">
@@ -49,11 +48,8 @@
         <p>महोदय,</p>
         <p class="text-center">
           मैले नागार्जुन नगरपालिका कार्यालयबाट देहायको विवरण भएको नेपाली
-          <span class="me-sm-5"
-            >नागरिकता प्रमाण-पत्र लिएकोमा सो प्रमाण-पत्रको सक्कल</span
-          >
+          नागरिकता प्रमाण-पत्र लिएकोमा सो प्रमाण-पत्रको सक्कल
         </p>
-
         <div class="row">
           <select class="form-select col">
             <option selected>झुत्रो भएको</option>
@@ -61,364 +57,346 @@
             <option value="3">नया ढाँचाको आवश्यक भएको</option>
           </select>
 
-          <p class="text-nowrap col-10">
+          <p class="text-nowrap col">
             हुँदा सोको प्रतिलिपि पाउनको लागि सो नागरिकता प्रमाण-पत्रको प्रति
             संलग्न
           </p>
+          <p class="text-nowrap">
+            राखि रु.१३(तेह्र) को टिकट टाँसी सिफारिस सहित यो निवेदन पेश गरेको छु।
+          </p>
         </div>
-        <p class="text-nowrap mt-2">
-          राखि रु. १३ (तेह्र) को टिकट टाँसी सिफारिस सहित यो निवेदन पेश गरेको छु
-          ।
-        </p>
-
-        <p class="text-center mt-5">
+        <p class="text-center">
           मैले नागरिकताको प्रमाण-पत्र लिदाको यस प्रकार छ ।
         </p>
-        <div class="border border-dark">
-          <div class="m-2">
-            <div class="row mt-4">
-              <div class="col">
-                <label for="citizenship_num"> १. ना प्र प नं. :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num">नागरिकता जारी मिति :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num">किसिम :-</label>
-                <select class="form-select col-xl-6">
-                  <option selected>नागरिकताको किसिम</option>
-                  <option value="2">वंशज</option>
-                  <option value="3">जन्मको आधार</option>
-                  <option value="3">वैवाहिक अंगीकृत</option>
-                  <option value="3">जन्म सिद्ध</option>
-                </select>
-              </div>
+        <div class="border border-dark w-100">
+          <div class="row m-2">
+            <div class="col">
+              <label for="citizenship_num"> १. ना प्र प नं. :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
             </div>
-            <div class="d-flex mt-4">
-              <div class="">
-                <label for="citizenship_num"> २. नाम थर :-</label>
-              </div>
+            <div class="col">
+              <label for="citizenship_num ">नागरिकता जारी मिति :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="col">
+              <label for="citizenship_num">किसिम :-</label>
+              <select class="form-select col-6">
+                <option selected>नागरिकताको किसिम</option>
+                <option value="2">वंशज</option>
+                <option value="3">जन्मको आधार</option>
+                <option value="3">वैवाहिक अंगीकृत</option>
+                <option value="3">जन्म सिद्ध</option>
+              </select>
+            </div>
+          </div>
+          <div class="d-flex m-2">
+            <div class="">
+              <label for="citizenship_num"> २. नाम थर :-</label>
+            </div>
 
-              <div class="ms-3">
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
+            <div class="">
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
             </div>
-            <div class="d-flex mt-4">
-              <div class="">
-                <label for="citizenship_num"> FULL NAME (IN BLOCK) :-</label>
-              </div>
+          </div>
+          <div class="d-flex m-2">
+            <div class="">
+              <label for="citizenship_num"> FULL NAME (IN BLOCK) :-</label>
+            </div>
 
-              <div class="ms-3">
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
+            <div class="">
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
             </div>
-            <div class="row mt-4">
-              <div class="col d-flex">
-                <label for="citizenship_num"> ३.लिङ्ग :-</label>
+          </div>
+          <div class="row m-2">
+            <label for="citizenship_num" class="col-2"> ३.लिङ्ग :-</label>
 
-                <select class="form-select col ms-2">
-                  <option selected>पुरुष</option>
-                  <option value="2">महिला</option>
-                  <option value="3">अन्य</option>
-                </select>
-              </div>
+            <select class="form-select col">
+              <option selected>पुरुष</option>
+              <option value="2">महिला</option>
+              <option value="3">अन्य</option>
+            </select>
 
-              <div class="col d-flex">
-                <label for="citizenship_num">Sex:-</label>
-                <select class="form-select ms-2">
-                  <option selected>Male</option>
-                  <option value="2">Female</option>
-                  <option value="3">Others</option>
-                </select>
-              </div>
-              <div class="mt-4 d-flex">
-                <div>
-                  <label for="citizenship_num">४. जन्म स्थान :- </label>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control ms-2"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="mt-4 d-flex">
-                <div>
-                  <label for="citizenship_num"
-                    >PLACE OF BIRTH (IN BLOCK) :-
-                  </label>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control ms-2"
-                    required
-                  />
-                </div>
-              </div>
+            <label for="citizenship_num" class="col-2">Sex:-</label>
+            <select class="form-select col">
+              <option selected>Male</option>
+              <option value="2">Female</option>
+              <option value="3">Others</option>
+            </select>
+          </div>
+          <div class="m-2 d-flex">
+            <div>
+              <label for="citizenship_num">४. जन्म स्थान :- </label>
             </div>
-            <p for="" class="mt-4">५. स्थायी बासस्थान:</p>
-            <div class="row">
-              <div class="col">
-                <label for="citizenship_num"> जिल्ला :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num"> पालिका :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num"> वडा नं :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
+            <div>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
             </div>
-            <p class="mt-4">Permanent Address:</p>
-            <div class="row">
-              <div class="col">
-                <label for="citizenship_num"> District :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num"> Municipality :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num"> Ward no :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
+          </div>
+          <div class="m-2 d-flex">
+            <div>
+              <label for="citizenship_num">PLACE OF BIRTH (IN BLOCK) :- </label>
             </div>
-            <div class="row mt-4">
-              <div class="col">
-                <div class="d-flex">
-                  <label for="citizenship_num ">
-                    ६. जन्म मिति (बि.सं) :-
-                  </label>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="col">
-                <div class="d-flex">
-                  <label for="citizenship_num">Date of birth (A.D):- </label>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control"
-                    required
-                  />
-                </div>
-              </div>
+            <div>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control ms-2"
+                required
+              />
             </div>
-            <div class="row mt-4">
-              <div class="col">
-                <label for="citizenship_num white-space: nowrap;">
-                  ७. बाबुको नाम, थर :-
-                </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num"> बाबुको वतन :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num"> नागरिकताको किसिम :- </label>
-                <select class="form-select col-xl-6">
-                  <option selected>नागरिकताको किसिम</option>
-                  <option value="2">वंशज</option>
-                  <option value="3">जन्मको आधार</option>
-                  <option value="3">वैवाहिक अंगीकृत</option>
-                  <option value="3">जन्म सिद्ध</option>
-                </select>
-              </div>
+          </div>
+          <p class="m-2">५. स्थायी बासस्थान:</p>
+          <div class="row m-2">
+            <div class="col">
+              <label for="citizenship_num"> जिल्ला :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
             </div>
-            <div class="row mt-4">
-              <div class="col">
-                <label for="citizenship_num">८. आमाको नाम,थर :- </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num">आमाको वतन :-</label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num"> नागरिकताको किसिम :- </label>
-                <select class="form-select col-xl-6">
-                  <option selected>नागरिकताको किसिम</option>
-                  <option value="2">वंशज</option>
-                  <option value="3">जन्मको आधार</option>
-                  <option value="3">वैवाहिक अंगीकृत</option>
-                  <option value="3">जन्म सिद्ध</option>
-                </select>
-              </div>
+            <div class="col">
+              <label for="citizenship_num"> पालिका :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
             </div>
-            <div class="row mt-4">
-              <div class="col">
-                <label for="citizenship_num text-nowrap">
-                  ९. पति/पत्नीको नामथर
-                </label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num"> पति/पत्नीको वतन :-</label>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-              </div>
-              <div class="col">
-                <label for="citizenship_num"> नागरिकताको किसिम :- </label>
-                <select class="form-select col-xl-6">
-                  <option selected>नागरिकताको किसिम</option>
-                  <option value="2">वंशज</option>
-                  <option value="3">जन्मको आधार</option>
-                  <option value="3">वैवाहिक अंगीकृत</option>
-                  <option value="3">जन्म सिद्ध</option>
-                </select>
-              </div>
+            <div class="col">
+              <label for="citizenship_num"> वडा नं :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
             </div>
-            <div class="mt-4 d-flex justify-content-center">
+          </div>
+          <p class="m-2">Permanent Address:</p>
+          <div class="row m-2">
+            <div class="col">
+              <label for="citizenship_num"> District :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="col">
+              <label for="citizenship_num"> Municipality :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="col">
+              <label for="citizenship_num"> Ward no :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col">
               <div class="d-flex">
-                <div>
-                  <label for="citizenship_num">माथि उल्लेखित विवरण मैले</label>
-                </div>
-
-                <div>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control ms-4"
-                    required
-                  />
-                </div>
+                <label for="citizenship_num "> ६. जन्म मिति (बि.सं) :- </label>
+                <input
+                  type="text"
+                  name=""
+                  id="citizenship_num"
+                  class="form-control"
+                  required
+                />
               </div>
-
-              <div class="d-flex">
-                <div class="ms-5">
-                  <label for="citizenship_num">कार्यालयबाट लीएको नं. :- </label>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control ms-4"
-                    required
-                  />
-                </div>
-              </div>
-              <p class="ms-5">को ना.प्र.प.</p>
             </div>
-            <p class="mt-2">
-              को व्यहोरा संग दुरुस्त छ।फरक छैन।लेखिएको व्यहोरा झुट्टा ठहरेमा
-              कानुन बमोजिम सहुँला बुझाउँला ।
+            <div class="col">
+              <div class="d-flex">
+                <label for="citizenship_num">Date of birth (A.D):- </label>
+                <input
+                  type="text"
+                  name=""
+                  id="citizenship_num"
+                  class="form-control"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col">
+              <label for="citizenship_num white-space: nowrap;">
+                ७. बाबुको नाम, थर :-
+              </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="col">
+              <label for="citizenship_num"> बाबुको वतन :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="col">
+              <label for="citizenship_num"> नागरिकताको किसिम :- </label>
+              <select class="form-select col-xl-6">
+                <option selected>नागरिकताको किसिम</option>
+                <option value="2">वंशज</option>
+                <option value="3">जन्मको आधार</option>
+                <option value="3">वैवाहिक अंगीकृत</option>
+                <option value="3">जन्म सिद्ध</option>
+              </select>
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col">
+              <label for="citizenship_num">८. आमाको नाम,थर :- </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="col">
+              <label for="citizenship_num">आमाको वतन :-</label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="col">
+              <label for="citizenship_num"> नागरिकताको किसिम :- </label>
+              <select class="form-select col-xl-6">
+                <option selected>नागरिकताको किसिम</option>
+                <option value="2">वंशज</option>
+                <option value="3">जन्मको आधार</option>
+                <option value="3">वैवाहिक अंगीकृत</option>
+                <option value="3">जन्म सिद्ध</option>
+              </select>
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col">
+              <label for="citizenship_num text-nowrap">
+                ९. पति/पत्नीको नामथर
+              </label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="col">
+              <label for="citizenship_num"> पति/पत्नीको वतन :-</label>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+            </div>
+            <div class="col">
+              <label for="citizenship_num"> नागरिकताको किसिम :- </label>
+              <select class="form-select col-xl-6">
+                <option selected>नागरिकताको किसिम</option>
+                <option value="2">वंशज</option>
+                <option value="3">जन्मको आधार</option>
+                <option value="3">वैवाहिक अंगीकृत</option>
+                <option value="3">जन्म सिद्ध</option>
+              </select>
+            </div>
+          </div>
+          <div class="m-2 row text-center">
+            <p for="citizenship_num" class="text-nowrap col">
+              माथि उल्लेखित विवरण मैले
             </p>
+
+            <input
+              type="text"
+              name=""
+              id="citizenship_num"
+              class="form-control col"
+              required
+            />
+
+            <p for="citizenship_num" class="col">कार्यालयबाट लीएको नं. :-</p>
+
+            <input
+              type="text"
+              name=""
+              id="citizenship_num"
+              class="form-control col"
+              required
+            />
+
+            <p class="col">को ना.प्र.प.</p>
+          </div>
+          <p class="m-2">
+            को व्यहोरा संग दुरुस्त छ।फरक छैन।लेखिएको व्यहोरा झुट्टा ठहरेमा कानुन
+            बमोजिम सहुँला बुझाउँला ।
+          </p>
+          <div class="m-2">
             <div class="row">
               <p class="col">औंठा छाप</p>
               <p class="col text-end">भवदिय,</p>
@@ -453,7 +431,7 @@
                   class="form-control"
                   required
                 />
-                <p class="mt-2">नाम/थर</p>
+                <p class="mt-2 text-end">नाम/थर</p>
                 <input
                   type="text"
                   name=""
@@ -473,43 +451,13 @@
                 </div>
               </div>
             </div>
-            <div>
-              <p class="text-center text-decoration-underline">
-                नगरपालिका को प्रतिलिपि ना.प्र.प. का लागि सिफारिस
-              </p>
-              <div class="d-flex justify-content-between">
-                <div class="d-flex">
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control"
-                    required
-                  />
-                  <p class="text-nowrap ms-4">वडा नं.</p>
-                </div>
-                <div class="d-flex">
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control"
-                    required
-                  />
-                  <p class="text-nowrap ms-4">मा मिति</p>
-                </div>
-                <div class="d-flex">
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control"
-                    required
-                  />
-                  <p class="text-center text-nowrap ms-4">मा जन्म भई हाल</p>
-                </div>
-              </div>
-              <div class="d-flex m-2">
+          </div>
+          <div class="m-2">
+            <p class="text-center text-decoration-underline">
+              नगरपालिका को प्रतिलिपि ना.प्र.प. का लागि सिफारिस
+            </p>
+            <div class="d-flex justify-content-between">
+              <div class="d-flex">
                 <input
                   type="text"
                   name=""
@@ -517,18 +465,9 @@
                   class="form-control"
                   required
                 />
-                <p class="text-nowrap">वडा नं.</p>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-                <p class="text-nowrap">मा स्थायी रुपमा बसोबास गरी आएका यसमा</p>
+                <p class="text-nowrap ms-4">वडा नं.</p>
               </div>
               <div class="d-flex">
-                <p class="text-nowrap">लेखिएका</p>
                 <input
                   type="text"
                   name=""
@@ -536,81 +475,162 @@
                   class="form-control"
                   required
                 />
-                <select class="form-select ms-3">
-                  <option selected>1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                </select>
-                <p class="">को</p>
-                <select class="form-select">
-                  <option selected>1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                </select>
-                <p class="">वर्ष</p>
+                <p class="text-nowrap ms-4">मा मिति</p>
+              </div>
+              <div class="d-flex">
                 <input
                   type="text"
                   name=""
                   id="citizenship_num"
-                  class="form-control col"
+                  class="form-control"
                   required
                 />
-                <p class="col">को</p>
-                <select class="form-select me-2">
-                  <option selected>1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                </select>
+                <p class="text-center text-nowrap ms-4">मा जन्म भई हाल</p>
+              </div>
+            </div>
+            <div class="d-flex m-2">
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+              <p class="text-nowrap">वडा नं.</p>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+              <p class="text-nowrap">मा स्थायी रुपमा बसोबास गरी आएका यसमा</p>
+            </div>
+            <div class="d-flex">
+              <p class="text-nowrap">लेखिएका</p>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control"
+                required
+              />
+              <select class="form-select ms-3">
+                <option selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <p class="">को</p>
+              <select class="form-select">
+                <option selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <p class="">वर्ष</p>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control col"
+                required
+              />
+              <p class="col">को</p>
+              <select class="form-select me-2">
+                <option selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+
+            <p class="mt-2">
+              दिएमा फरक नपर्ने व्यहोरा सिफारिस गर्दछु। उक्त विवरण झुठ्ठा ठहरे
+              कानुन बमोजिम सँहुला बुझाउँला।
+            </p>
+            <div class="row">
+              <div
+                class="col border border-dark d-flex align-items-center justify-content-centerr ms-2"
+              >
+                <p>दुवै कान देखिने हाल खिचिएको २.५ X ३ से.मी. फोटो</p>
               </div>
 
-              <p class="mt-2">
-                दिएमा फरक नपर्ने व्यहोरा सिफारिस गर्दछु। उक्त विवरण झुठ्ठा ठहरे
-                कानुन बमोजिम सँहुला बुझाउँला।
-              </p>
-              <div class="row">
-                <div
-                  class="col border border-dark d-flex align-items-center justify-content-centerr ms-2"
-                >
-                  <p>दुवै कान देखिने हाल खिचिएको २.५ X ३ से.मी. फोटो</p>
-                </div>
-
-                <div class="col-5">
-                  <p>कार्यालयको नाम र छाप</p>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control ms-2"
-                    required
-                  />
-                </div>
-                <div class="col-4">
-                  <p>सिफारिस गर्नेको :</p>
-                  <p>दस्तखत</p>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control ms-2"
-                    required
-                  />
-                  <p class="text-end">नाम/थर</p>
-                  <div class="row">
-                    <p class="col-2 me-2">पद</p>
-                    <select class="form-select col me-2">
-                      <option selected>1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </div>
+              <div class="col-5">
+                <p>कार्यालयको नाम र छाप</p>
+                <input
+                  type="text"
+                  name=""
+                  id="citizenship_num"
+                  class="form-control ms-2"
+                  required
+                />
+              </div>
+              <div class="col-4">
+                <p>सिफारिस गर्नेको :</p>
+                <p>दस्तखत</p>
+                <input
+                  type="text"
+                  name=""
+                  id="citizenship_num"
+                  class="form-control ms-2"
+                  required
+                />
+                <p class="text-end">नाम/थर</p>
+                <div class="row">
+                  <p class="col-2 me-2">पद</p>
+                  <select class="form-select col me-2">
+                    <option selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-center mt-4">
-          <div class="d-flex">
-            <p>मिति</p>
+          <div class="d-flex align-items-center justify-content-center mt-4">
+            <div class="d-flex">
+              <p>मिति</p>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control ms-2"
+                required
+              />
+            </div>
+          </div>
+          <p class="text-center mt-2">जिल्ला प्रशासन कार्यालय, काठमाडौँ बाट</p>
+          <hr class="" />
+          <div class="row m-2">
+            <p class="col-1">निवेदक</p>
+            <select class="form-select col ms-3">
+              <option selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <input
+              type="text"
+              name=""
+              id="citizenship_num"
+              class="form-control col ms-4"
+              required
+            />
+            <p class="col-6 ms-3">नाता भएकोले निजिको मागअनुसार</p>
+            <p class="mt-2">
+              पतिको नाम थर वतन समावेश गरि नागरिकता प्रमाण-पत्रको प्रतिलिपि दिएको
+              कुनै फरक पर्दैन। व्यहोरा साँचो हो, झुठो ठहरे ऎन-कानुनअनुसारको सजाय
+              भोग्न तयार छु भनि सहिछाप गर्ने। निवेदकको
+            </p>
+          </div>
+          <div class="d-flex w-50">
+            <input
+              type="text"
+              name=""
+              id="citizenship_num"
+              class="form-control"
+              required
+            />
+
+            <p class="ms-2 text-nowrap">नाता पर्ने म</p>
+
             <input
               type="text"
               name=""
@@ -619,49 +639,6 @@
               required
             />
           </div>
-        </div>
-        <p class="text-center mt-2">जिल्ला प्रशासन कार्यालय, काठमाडौँ बाट</p>
-        <hr />
-        <div class="row">
-          <p class="col-1">निवेदक</p>
-          <select class="form-select col ms-3">
-            <option selected>1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-          </select>
-          <input
-            type="text"
-            name=""
-            id="citizenship_num"
-            class="form-control col ms-4"
-            required
-          />
-          <p class="col-6 ms-3">नाता भएकोले निजिको मागअनुसार</p>
-          <p class="mt-2">
-            पतिको नाम थर वतन समावेश गरि नागरिकता प्रमाण-पत्रको प्रतिलिपि दिएको
-            कुनै फरक पर्दैन। व्यहोरा साँचो हो, झुठो ठहरे ऎन-कानुनअनुसारको सजाय
-            भोग्न तयार छु भनि सहिछाप गर्ने। निवेदकको
-          </p>
-        </div>
-
-        <div class="d-flex w-50">
-          <input
-            type="text"
-            name=""
-            id="citizenship_num"
-            class="form-control"
-            required
-          />
-
-          <p class="ms-2 text-nowrap">नाता पर्ने म</p>
-
-          <input
-            type="text"
-            name=""
-            id="citizenship_num"
-            class="form-control ms-2"
-            required
-          />
         </div>
         <p class="mt-4">निवेदकको विवरण</p>
         <div class="border border-dark">
