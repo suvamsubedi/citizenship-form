@@ -61,7 +61,7 @@
             <option value="3">नया ढाँचाको आवश्यक भएको</option>
           </select>
 
-          <p class="text-nowrap col">
+          <p class="text-nowrap col-10">
             हुँदा सोको प्रतिलिपि पाउनको लागि सो नागरिकता प्रमाण-पत्रको प्रति
             संलग्न
           </p>
@@ -284,7 +284,9 @@
             </div>
             <div class="row mt-4">
               <div class="col">
-                <label for="citizenship_num"> ७. बाबुको नाम, थर :- </label>
+                <label for="citizenship_num white-space: nowrap;">
+                  ७. बाबुको नाम, थर :-
+                </label>
                 <input
                   type="text"
                   name=""
@@ -507,47 +509,45 @@
                   <p class="text-center text-nowrap ms-4">मा जन्म भई हाल</p>
                 </div>
               </div>
-              <div class="row m-2">
+              <div class="d-flex m-2">
                 <input
                   type="text"
                   name=""
                   id="citizenship_num"
-                  class="form-control col"
+                  class="form-control"
                   required
                 />
-                <p class="col text-nowrap">वडा नं.</p>
+                <p class="text-nowrap">वडा नं.</p>
                 <input
                   type="text"
                   name=""
                   id="citizenship_num"
-                  class="form-control col"
+                  class="form-control"
                   required
                 />
-                <p class="col text-nowrap">
-                  मा स्थायी रुपमा बसोबास गरी आएका यसमा
-                </p>
+                <p class="text-nowrap">मा स्थायी रुपमा बसोबास गरी आएका यसमा</p>
               </div>
-              <div class="row">
-                <p class="col text-nowrap">लेखिएका</p>
+              <div class="d-flex">
+                <p class="text-nowrap">लेखिएका</p>
                 <input
                   type="text"
                   name=""
                   id="citizenship_num"
-                  class="form-control col"
+                  class="form-control"
                   required
                 />
-                <select class="form-select col ms-3">
+                <select class="form-select ms-3">
                   <option selected>1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
                 </select>
-                <p class="col">को</p>
-                <select class="form-select col">
+                <p class="">को</p>
+                <select class="form-select">
                   <option selected>1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
                 </select>
-                <p class="col">वर्ष</p>
+                <p class="">वर्ष</p>
                 <input
                   type="text"
                   name=""
@@ -556,56 +556,13 @@
                   required
                 />
                 <p class="col">को</p>
-                <select class="form-select col me-2">
+                <select class="form-select me-2">
                   <option selected>1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
                 </select>
-              </div>
-              <div class="row">
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control col"
-                  required
-                />
-                <p class="text-nowrap col">
-                  लाई म चिन्दछु। निजको माग बमोजिम उपयुक्त
-                </p>
-                <p class="col">विवरण भएको नं.</p>
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control col"
-                  required
-                />
               </div>
 
-              <div class="row">
-                <div class="col d-flex">
-                  <p class="">मिति</p>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control"
-                    required
-                  />
-                  <p class="text-nowrap">
-                    को नागरिकता प्रमाण-पत्रको सक्कल प्रति
-                  </p>
-                  <input
-                    type="text"
-                    name=""
-                    id="citizenship_num"
-                    class="form-control ms-2"
-                    required
-                  />
-                  <p class="text-nowrap">व्यहोरा साँचो हुँदा प्रतिलिपि</p>
-                </div>
-              </div>
               <p class="mt-2">
                 दिएमा फरक नपर्ने व्यहोरा सिफारिस गर्दछु। उक्त विवरण झुठ्ठा ठहरे
                 कानुन बमोजिम सँहुला बुझाउँला।
@@ -756,7 +713,6 @@
         </div>
       </form>
     </div>
-    <p>github check</p>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
