@@ -18,7 +18,7 @@
         <div class="row">
           <h5 class="col">नेपाली नागरिकताको प्रमाण-पत्र प्रतिलिपि पाऊँ।</h5>
 
-          <p class="col text-end text-nowrap">
+          <p class="text-end text-nowrap col">
             नेपाली नागरिकता > नागरिकता प्रतिलिपि सिफारिस
           </p>
         </div>
@@ -29,7 +29,7 @@
             <option value="2">ईलाका</option>
             <option value="3">सीमा</option>
           </select>
-          <p class="col-10">प्रशासन कार्यालय</p>
+          <p class="col-10">प्रशासन कार्यालय श्रीमान्</p>
         </div>
         <div class="row">
           <input
@@ -41,36 +41,32 @@
 
           <p class="col-10 mt-2">।</p>
         </div>
-        <div class="d-flex justify-content-center">
-          <p class="">विषय:</p>
-          <p class="text-decoration-underline ms-2">
-            नेपाली नागरिकताको प्रमाण-पत्र प्रतिलिपि पाऊँ।
-          </p>
-        </div>
-        <p>महोदय,</p>
+
+        <p class="text-center">
+          विषय:
+          <span class="text-decoration-underline">
+            नेपाली नागरिकताको प्रमाण-पत्र प्रतिलिपि पाऊँ।</span
+          >
+        </p>
+        <p class="">महोदय,</p>
         <p class="text-center">
           मैले नागार्जुन नगरपालिका कार्यालयबाट देहायको विवरण भएको नेपाली
           नागरिकता प्रमाण-पत्र लिएकोमा सो प्रमाण-पत्रको सक्कल
         </p>
+
         <div class="row">
           <select class="form-select col">
             <option selected>झुत्रो भएको</option>
             <option value="2">हराएको</option>
             <option value="3">नया ढाँचाको आवश्यक भएको</option>
           </select>
-
-          <p class="text-nowrap col">
+          <p class="col-lg-10">
             हुँदा सोको प्रतिलिपि पाउनको लागि सो नागरिकता प्रमाण-पत्रको प्रति
-            संलग्न
-          </p>
-          <p class="text-nowrap">
-            राखि रु.१३(तेह्र) को टिकट टाँसी सिफारिस सहित यो निवेदन पेश गरेको छु।
+            संलग्न राखि रु.१३(तेह्र) को टिकट टाँसी सिफारिस सहित यो निवेदन पेश
+            गरेको छु।
           </p>
         </div>
-        <p class="text-center">
-          मैले नागरिकताको प्रमाण-पत्र लिदाको यस प्रकार छ ।
-        </p>
-        <div class="border border-dark ms-3">
+        <div class="border border-dark mt-4">
           <div class="row m-2">
             <div class="col">
               <label for="citizenship_num"> १. ना प्र प नं. :- </label>
@@ -458,77 +454,58 @@
             <p class="text-center text-decoration-underline">
               नगरपालिका को प्रतिलिपि ना.प्र.प. का लागि सिफारिस
             </p>
-            <div class="d-flex justify-content-between">
-              <div class="d-flex">
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-                <p class="text-nowrap ms-4">वडा नं.</p>
-              </div>
-              <div class="d-flex">
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-                <p class="text-nowrap ms-4">मा मिति</p>
-              </div>
-              <div class="d-flex">
-                <input
-                  type="text"
-                  name=""
-                  id="citizenship_num"
-                  class="form-control"
-                  required
-                />
-                <p class="text-center text-nowrap ms-4">मा जन्म भई हाल</p>
-              </div>
+            <div class="row m-2">
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control col"
+                required
+              />
+              <p class="col">वडा नं.</p>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control col"
+                required
+              />
+              <p class="col text-end">मा मिति</p>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control col ms-4"
+                required
+              />
+              <p class="col-4 text-end">मा जन्म भई हाल</p>
             </div>
-            <div class="d-flex m-2">
+            <div class="row m-2">
               <input
                 type="text"
                 name=""
                 id="citizenship_num"
-                class="form-control"
+                class="form-control col"
                 required
               />
-              <p class="text-nowrap">वडा नं.</p>
+              <p class="col">वडा नं.</p>
               <input
                 type="text"
                 name=""
                 id="citizenship_num"
-                class="form-control"
+                class="form-control col"
                 required
               />
-              <p class="text-nowrap">मा स्थायी रुपमा बसोबास गरी आएका यसमा</p>
+              <p class="col-6">मा स्थायी रुपमा बसोबास गरी आएका</p>
             </div>
-            <div class="d-flex">
-              <p class="text-nowrap">लेखिएका</p>
-              <input
-                type="text"
-                name=""
-                id="citizenship_num"
-                class="form-control"
-                required
-              />
-              <select class="form-select ms-3">
+            <div class="row m-2">
+              <p class="col">लेखिएका</p>
+
+              <select class="form-select col">
                 <option selected>1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
               </select>
-              <p class="">को</p>
-              <select class="form-select">
-                <option selected>1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
-              <p class="">वर्ष</p>
               <input
                 type="text"
                 name=""
@@ -537,7 +514,21 @@
                 required
               />
               <p class="col">को</p>
-              <select class="form-select me-2">
+              <select class="form-select col">
+                <option selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+              <p class="col">वर्ष</p>
+              <input
+                type="text"
+                name=""
+                id="citizenship_num"
+                class="form-control col"
+                required
+              />
+              <p class="col">को</p>
+              <select class="form-select col">
                 <option selected>1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -602,8 +593,8 @@
           <p class="text-center mt-2">जिल्ला प्रशासन कार्यालय, काठमाडौँ बाट</p>
           <hr class="" />
           <div class="row m-2">
-            <p class="col-1">निवेदक</p>
-            <select class="form-select col ms-3">
+            <p class="col-2">निवेदक</p>
+            <select class="form-select col">
               <option selected>1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -612,10 +603,12 @@
               type="text"
               name=""
               id="citizenship_num"
-              class="form-control col ms-4"
+              class="form-control col ms-2"
               required
             />
-            <p class="col-6 ms-3">नाता भएकोले निजिको मागअनुसार</p>
+            <p class="col text-center text-nowrap">
+              नाता भएकोले निजिको मागअनुसार
+            </p>
             <p class="mt-2">
               पतिको नाम थर वतन समावेश गरि नागरिकता प्रमाण-पत्रको प्रतिलिपि दिएको
               कुनै फरक पर्दैन। व्यहोरा साँचो हो, झुठो ठहरे ऎन-कानुनअनुसारको सजाय
@@ -643,7 +636,7 @@
           </div>
         </div>
         <p class="mt-4">निवेदकको विवरण</p>
-        <div class="border border-dark ms-3">
+        <div class="border border-dark">
           <div class="ms-2">
             <div class="w-50 mt-2">
               <label for="citizenship_num"> निवेदकको नाम </label>
