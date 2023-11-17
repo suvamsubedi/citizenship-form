@@ -7,3 +7,10 @@ th:last-child,
 td:last-child {
   border-right: none;
 }
+div.form-group {
+  margin-bottom: 35px;
+}
+
+div.has-error {
+  height: 0px;
+}
